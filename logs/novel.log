@@ -1,27 +1,18 @@
-2022-07-21 00:13:49,342 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:13:49,345 INFO (Undertow.java:259)- stopping server: Undertow - 2.2.18.Final
-2022-07-21 00:13:49,348 INFO (ServletContextImpl.java:382)- Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-07-21 00:13:49,352 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
-2022-07-21 00:13:49,352 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2022-07-21 00:13:49,352 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:13:49,352 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2022-07-21 00:13:49,474 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
-2022-07-21 00:13:49,479 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
-2022-07-21 00:13:55,065 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.3.1 on Mingjie-coding with PID 25772 (D:\Java\novel\target\classes started by 85396 in D:\Java\novel)
-2022-07-21 00:13:55,067 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-M5
-2022-07-21 00:13:55,067 INFO (SpringApplication.java:635)- The following 1 profile is active: "dev"
-2022-07-21 00:13:55,071 INFO (Version.java:21)- HV000001: Hibernate Validator 7.0.4.Final
-2022-07-21 00:13:55,980 INFO (RepositoryConfigurationDelegate.java:294)- Multiple Spring Data modules found, entering strict repository configuration mode
-2022-07-21 00:13:55,982 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2022-07-21 00:13:56,005 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-2022-07-21 00:13:56,441 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2022-07-21 00:13:56,456 INFO (ServletContextImpl.java:382)- Initializing Spring embedded WebApplicationContext
-2022-07-21 00:13:56,456 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1242 ms
-2022-07-21 00:13:58,642 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
-2022-07-21 00:13:58,647 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2022-07-21 00:13:58,648 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
-2022-07-21 00:13:58,649 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
-2022-07-21 00:13:58,650 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2022-08-09 00:10:44,200 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.3.1 on Mingjie-coding with PID 10384 (D:\Java\novel\target\classes started by 85396 in D:\Java\novel)
+2022-08-09 00:10:44,201 INFO (Version.java:21)- HV000001: Hibernate Validator 7.0.4.Final
+2022-08-09 00:10:44,209 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-M5
+2022-08-09 00:10:44,209 INFO (SpringApplication.java:635)- The following 1 profile is active: "dev"
+2022-08-09 00:10:45,465 INFO (RepositoryConfigurationDelegate.java:294)- Multiple Spring Data modules found, entering strict repository configuration mode
+2022-08-09 00:10:45,467 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-09 00:10:45,493 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-08-09 00:10:45,962 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-08-09 00:10:45,978 INFO (ServletContextImpl.java:382)- Initializing Spring embedded WebApplicationContext
+2022-08-09 00:10:45,978 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1615 ms
+2022-08-09 00:10:48,314 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
+2022-08-09 00:10:48,321 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-08-09 00:10:48,321 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
+2022-08-09 00:10:48,322 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
+2022-08-09 00:10:48,322 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -29,65 +20,298 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2022-07-21 00:13:58,650 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2022-07-21 00:13:58,650 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
-2022-07-21 00:13:58,650 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@724c26e0
-2022-07-21 00:13:59,232 INFO (EndpointLinksResolver.java:58)- Exposing 15 endpoint(s) beneath base path '/actuator'
-2022-07-21 00:13:59,309 INFO (Undertow.java:120)- starting server: Undertow - 2.2.18.Final
-2022-07-21 00:13:59,314 INFO (Xnio.java:95)- XNIO version 3.8.7.Final
-2022-07-21 00:13:59,318 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.7.Final
-2022-07-21 00:13:59,333 INFO (Version.java:52)- JBoss Threads version 3.1.0.Final
-2022-07-21 00:13:59,364 INFO (UndertowWebServer.java:119)- Undertow started on port(s) 8888 (http)
-2022-07-21 00:13:59,365 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
-2022-07-21 00:13:59,365 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2022-07-21 00:13:59,377 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 4.658 seconds (process running for 5.394)
-2022-07-21 00:13:59,379 INFO (NovelApplication.java:32)- 加载了如下缓存管理器：
-2022-07-21 00:13:59,380 INFO (NovelApplication.java:34)- caffeineCacheManager:org.springframework.cache.support.SimpleCacheManager
-2022-07-21 00:13:59,380 INFO (NovelApplication.java:35)- 缓存：[homeBookCache, latestNewsCache, bookNewestRankCache, bookUpdateRankCache, bookCategoryListCache, bookInfoCache, bookChapterCache, lastUpdateBookIdListCache]
-2022-07-21 00:13:59,381 INFO (NovelApplication.java:34)- redisCacheManager:org.springframework.data.redis.cache.RedisCacheManager
-2022-07-21 00:13:59,381 INFO (NovelApplication.java:35)- 缓存：[bookVisitRankCache, homeFriendLinkCache, bookContentCache, userInfoCache, authorInfoCache]
-2022-07-21 00:13:59,807 INFO (ServletContextImpl.java:382)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-21 00:13:59,807 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2022-07-21 00:13:59,808 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2022-07-21 00:13:59,809 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2022-07-21 00:13:59,910 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54c3d831
-2022-07-21 00:13:59,913 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
-2022-07-21 00:14:03,431 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ?) ORDER BY visit_count DESC limit 30
-2022-07-21 00:14:03,431 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
-2022-07-21 00:14:03,431 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,type,sort,book_id,create_time,update_time FROM home_book ORDER BY sort ASC
-2022-07-21 00:14:03,447 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:14:03,447 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:14:03,447 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer)
-2022-07-21 00:14:03,482 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
-2022-07-21 00:14:03,487 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:14:03,491 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?))
-2022-07-21 00:14:03,492 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:14:03,492 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1334318182169681920(Long), 1334318497132552192(Long), 1334318818323963904(Long), 1334328310788882432(Long), 1334334734843609088(Long), 1334335471568912384(Long), 1337759637059973121(Long), 1337759773395824640(Long), 1337762752513486849(Long), 1337872061003993088(Long), 1337872316667793408(Long), 1337872488235798528(Long), 1337872597996539904(Long), 1337872898115768320(Long), 1337873148071120896(Long), 1337874646456864768(Long), 1337874812798767104(Long), 1337874951365988352(Long), 1337875255574663168(Long), 1337876581629038592(Long), 1337879143543476224(Long), 1337879206630002688(Long), 1337882606201475072(Long), 1337884719262470144(Long), 1337949399824781312(Long), 1337957605418520576(Long), 1337958745514233856(Long), 1337960531323047936(Long), 1337961040297644032(Long), 1337968514828390400(Long), 1337971702436515840(Long)
-2022-07-21 00:14:03,501 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:20:24,370 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:20:24,371 INFO (Undertow.java:259)- stopping server: Undertow - 2.2.18.Final
-2022-07-21 00:20:24,374 INFO (ServletContextImpl.java:382)- Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-07-21 00:20:24,377 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
-2022-07-21 00:20:24,377 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2022-07-21 00:20:24,377 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:20:24,377 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2022-07-21 00:20:24,498 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
-2022-07-21 00:20:24,502 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
-2022-07-21 00:20:30,681 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.3.1 on Mingjie-coding with PID 17220 (D:\Java\novel\target\classes started by 85396 in D:\Java\novel)
-2022-07-21 00:20:30,687 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-M5
-2022-07-21 00:20:30,688 INFO (SpringApplication.java:635)- The following 1 profile is active: "dev"
-2022-07-21 00:20:30,693 INFO (Version.java:21)- HV000001: Hibernate Validator 7.0.4.Final
-2022-07-21 00:20:31,588 INFO (RepositoryConfigurationDelegate.java:294)- Multiple Spring Data modules found, entering strict repository configuration mode
-2022-07-21 00:20:31,589 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2022-07-21 00:20:31,613 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-2022-07-21 00:20:32,045 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2022-07-21 00:20:32,059 INFO (ServletContextImpl.java:382)- Initializing Spring embedded WebApplicationContext
-2022-07-21 00:20:32,060 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1239 ms
-2022-07-21 00:20:34,219 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
-2022-07-21 00:20:34,226 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2022-07-21 00:20:34,226 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
-2022-07-21 00:20:34,227 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
-2022-07-21 00:20:34,227 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2022-08-09 00:10:48,322 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-08-09 00:10:48,322 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
+2022-08-09 00:10:48,323 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@62732be7
+2022-08-09 00:10:48,950 INFO (EndpointLinksResolver.java:58)- Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-08-09 00:10:49,034 INFO (Undertow.java:120)- starting server: Undertow - 2.2.18.Final
+2022-08-09 00:10:49,039 INFO (Xnio.java:95)- XNIO version 3.8.7.Final
+2022-08-09 00:10:49,043 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.7.Final
+2022-08-09 00:10:49,060 INFO (Version.java:52)- JBoss Threads version 3.1.0.Final
+2022-08-09 00:10:49,092 INFO (UndertowWebServer.java:119)- Undertow started on port(s) 8883 (http)
+2022-08-09 00:10:49,093 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
+2022-08-09 00:10:49,094 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-08-09 00:10:49,105 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 5.294 seconds (process running for 7.015)
+2022-08-09 00:10:49,107 INFO (NovelApplication.java:32)- 加载了如下缓存管理器：
+2022-08-09 00:10:49,107 INFO (NovelApplication.java:34)- caffeineCacheManager:org.springframework.cache.support.SimpleCacheManager
+2022-08-09 00:10:49,108 INFO (NovelApplication.java:35)- 缓存：[homeBookCache, latestNewsCache, bookNewestRankCache, bookUpdateRankCache, bookCategoryListCache, bookInfoCache, bookChapterCache, lastUpdateBookIdListCache]
+2022-08-09 00:10:49,108 INFO (NovelApplication.java:34)- redisCacheManager:org.springframework.data.redis.cache.RedisCacheManager
+2022-08-09 00:10:49,108 INFO (NovelApplication.java:35)- 缓存：[bookVisitRankCache, homeFriendLinkCache, bookContentCache, userInfoCache, authorInfoCache]
+2022-08-09 00:10:49,428 INFO (ServletContextImpl.java:382)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 00:10:49,428 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-08-09 00:10:49,429 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-08-09 00:10:49,431 INFO (FrameworkServlet.java:547)- Completed initialization in 2 ms
+2022-08-09 00:11:11,529 ERROR (HikariPool.java:594)- HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:105)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:100)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:94)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:41)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getLoggedHealth(HealthEndpointSupport.java:172)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:145)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateContribution(HealthEndpointSupport.java:156)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:141)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:88)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:74)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:122)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:97)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor99.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 60 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 63 common frames omitted
+2022-08-09 00:11:11,531 WARN (AbstractHealthIndicator.java:94)- DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:83)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:105)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:100)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:94)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:41)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getLoggedHealth(HealthEndpointSupport.java:172)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:145)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateContribution(HealthEndpointSupport.java:156)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:141)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:88)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:74)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:122)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:97)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor99.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	... 47 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 60 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 63 common frames omitted
+2022-08-09 00:11:11,533 WARN (HealthEndpointSupport.java:181)- Health contributor org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator (db) took 22104ms to respond
+2022-08-09 00:11:21,800 WARN (AbstractReactiveHealthIndicator.java:89)- Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1583)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1514)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1344)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1327)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:1082)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:478)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:104)
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:86)
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:227)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:105)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1512)
+	... 15 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.1.110/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:350)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:111)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:111)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$getConnection$0(LettucePoolingConnectionProvider.java:93)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201)
+	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:70)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:571)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:298)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:223)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:99)
+	... 16 common frames omitted
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.110:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2022-08-09 00:11:21,801 WARN (HealthEndpointSupport.java:181)- Health contributor org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration$AdaptedReactiveHealthContributors$1 (redis) took 10267ms to respond
+2022-08-09 00:12:03,686 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-08-09 00:12:03,686 INFO (Undertow.java:259)- stopping server: Undertow - 2.2.18.Final
+2022-08-09 00:12:03,690 INFO (ServletContextImpl.java:382)- Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-08-09 00:12:03,694 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
+2022-08-09 00:12:03,694 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-08-09 00:12:03,694 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-08-09 00:12:03,694 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-08-09 00:12:06,882 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.3.1 on Mingjie-coding with PID 27716 (D:\Java\novel\target\classes started by 85396 in D:\Java\novel)
+2022-08-09 00:12:06,884 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-M5
+2022-08-09 00:12:06,885 INFO (SpringApplication.java:635)- The following 1 profile is active: "dev"
+2022-08-09 00:12:06,890 INFO (Version.java:21)- HV000001: Hibernate Validator 7.0.4.Final
+2022-08-09 00:12:07,963 INFO (RepositoryConfigurationDelegate.java:294)- Multiple Spring Data modules found, entering strict repository configuration mode
+2022-08-09 00:12:07,965 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-09 00:12:07,995 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-08-09 00:12:08,538 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-08-09 00:12:08,563 INFO (ServletContextImpl.java:382)- Initializing Spring embedded WebApplicationContext
+2022-08-09 00:12:08,564 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1510 ms
+2022-08-09 00:12:10,971 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
+2022-08-09 00:12:10,978 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-08-09 00:12:10,978 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
+2022-08-09 00:12:10,979 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
+2022-08-09 00:12:10,979 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -95,393 +319,26 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2022-07-21 00:20:34,227 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2022-07-21 00:20:34,227 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
-2022-07-21 00:20:34,228 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@58041b11
-2022-07-21 00:20:34,873 INFO (EndpointLinksResolver.java:58)- Exposing 15 endpoint(s) beneath base path '/actuator'
-2022-07-21 00:20:34,961 INFO (Undertow.java:120)- starting server: Undertow - 2.2.18.Final
-2022-07-21 00:20:34,965 INFO (Xnio.java:95)- XNIO version 3.8.7.Final
-2022-07-21 00:20:34,969 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.7.Final
-2022-07-21 00:20:34,984 INFO (Version.java:52)- JBoss Threads version 3.1.0.Final
-2022-07-21 00:20:35,016 INFO (UndertowWebServer.java:119)- Undertow started on port(s) 8888 (http)
-2022-07-21 00:20:35,017 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
-2022-07-21 00:20:35,017 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2022-07-21 00:20:35,028 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 4.695 seconds (process running for 5.499)
-2022-07-21 00:20:35,031 INFO (NovelApplication.java:32)- 加载了如下缓存管理器：
-2022-07-21 00:20:35,031 INFO (NovelApplication.java:34)- caffeineCacheManager:org.springframework.cache.support.SimpleCacheManager
-2022-07-21 00:20:35,032 INFO (NovelApplication.java:35)- 缓存：[homeBookCache, latestNewsCache, bookNewestRankCache, bookUpdateRankCache, bookCategoryListCache, bookInfoCache, bookChapterCache, lastUpdateBookIdListCache]
-2022-07-21 00:20:35,032 INFO (NovelApplication.java:34)- redisCacheManager:org.springframework.data.redis.cache.RedisCacheManager
-2022-07-21 00:20:35,032 INFO (NovelApplication.java:35)- 缓存：[bookVisitRankCache, homeFriendLinkCache, bookContentCache, userInfoCache, authorInfoCache]
-2022-07-21 00:20:35,110 INFO (ServletContextImpl.java:382)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-21 00:20:35,111 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2022-07-21 00:20:35,111 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2022-07-21 00:20:35,112 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2022-07-21 00:20:35,218 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60cabed9
-2022-07-21 00:20:35,221 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
-2022-07-21 00:20:37,315 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 00:20:37,315 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
-2022-07-21 00:20:37,315 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY create_time DESC limit 30
-2022-07-21 00:20:37,315 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,type,sort,book_id,create_time,update_time FROM home_book ORDER BY sort ASC
-2022-07-21 00:20:37,333 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:20:37,333 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:20:37,333 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:20:37,333 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:20:37,356 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
-2022-07-21 00:20:37,360 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:20:37,362 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:20:37,362 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:20:37,365 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?))
-2022-07-21 00:20:37,367 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1334318182169681920(Long), 1334318497132552192(Long), 1334318818323963904(Long), 1334328310788882432(Long), 1334334734843609088(Long), 1334335471568912384(Long), 1337759637059973121(Long), 1337759773395824640(Long), 1337762752513486849(Long), 1337872061003993088(Long), 1337872316667793408(Long), 1337872488235798528(Long), 1337872597996539904(Long), 1337872898115768320(Long), 1337873148071120896(Long), 1337874646456864768(Long), 1337874812798767104(Long), 1337874951365988352(Long), 1337875255574663168(Long), 1337876581629038592(Long), 1337879143543476224(Long), 1337879206630002688(Long), 1337882606201475072(Long), 1337884719262470144(Long), 1337949399824781312(Long), 1337957605418520576(Long), 1337958745514233856(Long), 1337960531323047936(Long), 1337961040297644032(Long), 1337968514828390400(Long), 1337971702436515840(Long)
-2022-07-21 00:20:37,375 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:29:17,109 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:29:17,110 INFO (Undertow.java:259)- stopping server: Undertow - 2.2.18.Final
-2022-07-21 00:29:17,112 INFO (ServletContextImpl.java:382)- Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-07-21 00:29:17,115 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
-2022-07-21 00:29:17,115 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2022-07-21 00:29:17,115 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:29:17,115 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2022-07-21 00:29:17,246 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
-2022-07-21 00:29:17,250 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
-2022-07-21 00:29:19,991 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.3.1 on Mingjie-coding with PID 18472 (D:\Java\novel\target\classes started by 85396 in D:\Java\novel)
-2022-07-21 00:29:19,993 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-M5
-2022-07-21 00:29:19,994 INFO (SpringApplication.java:635)- The following 1 profile is active: "dev"
-2022-07-21 00:29:20,001 INFO (Version.java:21)- HV000001: Hibernate Validator 7.0.4.Final
-2022-07-21 00:29:20,901 INFO (RepositoryConfigurationDelegate.java:294)- Multiple Spring Data modules found, entering strict repository configuration mode
-2022-07-21 00:29:20,903 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2022-07-21 00:29:20,928 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-2022-07-21 00:29:21,378 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2022-07-21 00:29:21,393 INFO (ServletContextImpl.java:382)- Initializing Spring embedded WebApplicationContext
-2022-07-21 00:29:21,394 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1249 ms
-2022-07-21 00:29:23,540 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
-2022-07-21 00:29:23,546 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2022-07-21 00:29:23,546 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
-2022-07-21 00:29:23,547 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
-2022-07-21 00:29:23,547 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2022-07-21 00:29:23,547 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2022-07-21 00:29:23,548 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
-2022-07-21 00:29:23,548 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3fa50a24
-2022-07-21 00:29:24,066 INFO (EndpointLinksResolver.java:58)- Exposing 15 endpoint(s) beneath base path '/actuator'
-2022-07-21 00:29:24,138 INFO (Undertow.java:120)- starting server: Undertow - 2.2.18.Final
-2022-07-21 00:29:24,142 INFO (Xnio.java:95)- XNIO version 3.8.7.Final
-2022-07-21 00:29:24,146 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.7.Final
-2022-07-21 00:29:24,160 INFO (Version.java:52)- JBoss Threads version 3.1.0.Final
-2022-07-21 00:29:24,190 INFO (UndertowWebServer.java:119)- Undertow started on port(s) 8888 (http)
-2022-07-21 00:29:24,191 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
-2022-07-21 00:29:24,191 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2022-07-21 00:29:24,202 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 4.65 seconds (process running for 5.407)
-2022-07-21 00:29:24,204 INFO (NovelApplication.java:32)- 加载了如下缓存管理器：
-2022-07-21 00:29:24,204 INFO (NovelApplication.java:34)- caffeineCacheManager:org.springframework.cache.support.SimpleCacheManager
-2022-07-21 00:29:24,204 INFO (NovelApplication.java:35)- 缓存：[homeBookCache, latestNewsCache, bookNewestRankCache, bookUpdateRankCache, bookCategoryListCache, bookInfoCache, bookChapterCache, lastUpdateBookIdListCache]
-2022-07-21 00:29:24,205 INFO (NovelApplication.java:34)- redisCacheManager:org.springframework.data.redis.cache.RedisCacheManager
-2022-07-21 00:29:24,205 INFO (NovelApplication.java:35)- 缓存：[bookVisitRankCache, homeFriendLinkCache, bookContentCache, userInfoCache, authorInfoCache]
-2022-07-21 00:29:24,641 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2022-07-21 00:29:24,647 INFO (ServletContextImpl.java:382)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-21 00:29:24,647 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2022-07-21 00:29:24,649 INFO (FrameworkServlet.java:547)- Completed initialization in 2 ms
-2022-07-21 00:29:24,750 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3353db0d
-2022-07-21 00:29:24,753 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
-2022-07-21 00:29:41,613 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
-2022-07-21 00:29:41,613 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 00:29:41,613 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY create_time DESC limit 30
-2022-07-21 00:29:41,613 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,type,sort,book_id,create_time,update_time FROM home_book ORDER BY sort ASC
-2022-07-21 00:29:41,627 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:29:41,627 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:29:41,627 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:29:41,627 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:29:41,652 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
-2022-07-21 00:29:41,655 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:29:41,658 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:29:41,659 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:29:41,659 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?))
-2022-07-21 00:29:41,660 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1334318182169681920(Long), 1334318497132552192(Long), 1334318818323963904(Long), 1334328310788882432(Long), 1334334734843609088(Long), 1334335471568912384(Long), 1337759637059973121(Long), 1337759773395824640(Long), 1337762752513486849(Long), 1337872061003993088(Long), 1337872316667793408(Long), 1337872488235798528(Long), 1337872597996539904(Long), 1337872898115768320(Long), 1337873148071120896(Long), 1337874646456864768(Long), 1337874812798767104(Long), 1337874951365988352(Long), 1337875255574663168(Long), 1337876581629038592(Long), 1337879143543476224(Long), 1337879206630002688(Long), 1337882606201475072(Long), 1337884719262470144(Long), 1337949399824781312(Long), 1337957605418520576(Long), 1337958745514233856(Long), 1337960531323047936(Long), 1337961040297644032(Long), 1337968514828390400(Long), 1337971702436515840(Long)
-2022-07-21 00:29:41,668 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:35:28,158 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 00:35:28,159 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:35:28,164 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:36:41,423 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 00:36:41,424 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:36:41,429 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:37:07,614 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:37:07,615 INFO (Undertow.java:259)- stopping server: Undertow - 2.2.18.Final
-2022-07-21 00:37:07,616 INFO (ServletContextImpl.java:382)- Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-07-21 00:37:07,619 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
-2022-07-21 00:37:07,620 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2022-07-21 00:37:07,620 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:37:07,620 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2022-07-21 00:37:07,750 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
-2022-07-21 00:37:07,755 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
-2022-07-21 00:39:03,791 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.3.1 on Mingjie-coding with PID 3296 (D:\Java\novel\target\classes started by 85396 in D:\Java\novel)
-2022-07-21 00:39:03,792 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-M5
-2022-07-21 00:39:03,793 INFO (SpringApplication.java:635)- The following 1 profile is active: "dev"
-2022-07-21 00:39:03,797 INFO (Version.java:21)- HV000001: Hibernate Validator 7.0.4.Final
-2022-07-21 00:39:04,674 INFO (RepositoryConfigurationDelegate.java:294)- Multiple Spring Data modules found, entering strict repository configuration mode
-2022-07-21 00:39:04,675 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2022-07-21 00:39:04,698 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-2022-07-21 00:39:05,148 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2022-07-21 00:39:05,163 INFO (ServletContextImpl.java:382)- Initializing Spring embedded WebApplicationContext
-2022-07-21 00:39:05,163 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1241 ms
-2022-07-21 00:39:07,263 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
-2022-07-21 00:39:07,269 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2022-07-21 00:39:07,270 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
-2022-07-21 00:39:07,270 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
-2022-07-21 00:39:07,271 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2022-07-21 00:39:07,271 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2022-07-21 00:39:07,271 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
-2022-07-21 00:39:07,271 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5e41e6ad
-2022-07-21 00:39:07,786 INFO (EndpointLinksResolver.java:58)- Exposing 15 endpoint(s) beneath base path '/actuator'
-2022-07-21 00:39:07,863 INFO (Undertow.java:120)- starting server: Undertow - 2.2.18.Final
-2022-07-21 00:39:07,868 INFO (Xnio.java:95)- XNIO version 3.8.7.Final
-2022-07-21 00:39:07,871 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.7.Final
-2022-07-21 00:39:07,886 INFO (Version.java:52)- JBoss Threads version 3.1.0.Final
-2022-07-21 00:39:07,916 INFO (UndertowWebServer.java:119)- Undertow started on port(s) 8888 (http)
-2022-07-21 00:39:07,917 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
-2022-07-21 00:39:07,917 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2022-07-21 00:39:07,927 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 4.477 seconds (process running for 5.168)
-2022-07-21 00:39:07,929 INFO (NovelApplication.java:32)- 加载了如下缓存管理器：
-2022-07-21 00:39:07,930 INFO (NovelApplication.java:34)- caffeineCacheManager:org.springframework.cache.support.SimpleCacheManager
-2022-07-21 00:39:07,930 INFO (NovelApplication.java:35)- 缓存：[homeBookCache, latestNewsCache, bookNewestRankCache, bookUpdateRankCache, bookCategoryListCache, bookInfoCache, bookChapterCache, lastUpdateBookIdListCache]
-2022-07-21 00:39:07,930 INFO (NovelApplication.java:34)- redisCacheManager:org.springframework.data.redis.cache.RedisCacheManager
-2022-07-21 00:39:07,930 INFO (NovelApplication.java:35)- 缓存：[bookVisitRankCache, homeFriendLinkCache, bookContentCache, userInfoCache, authorInfoCache]
-2022-07-21 00:39:08,165 INFO (ServletContextImpl.java:382)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-21 00:39:08,166 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2022-07-21 00:39:08,166 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2022-07-21 00:39:08,168 INFO (FrameworkServlet.java:547)- Completed initialization in 2 ms
-2022-07-21 00:39:08,269 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bf97797
-2022-07-21 00:39:08,272 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
-2022-07-21 00:39:12,841 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
-2022-07-21 00:39:12,841 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,type,sort,book_id,create_time,update_time FROM home_book ORDER BY sort ASC
-2022-07-21 00:39:12,841 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY create_time DESC limit 30
-2022-07-21 00:39:12,841 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 00:39:12,857 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:39:12,857 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:39:12,857 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:39:12,857 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:39:12,877 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
-2022-07-21 00:39:12,882 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:39:12,886 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:39:12,886 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:39:12,888 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?))
-2022-07-21 00:39:12,889 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1334318182169681920(Long), 1334318497132552192(Long), 1334318818323963904(Long), 1334328310788882432(Long), 1334334734843609088(Long), 1334335471568912384(Long), 1337759637059973121(Long), 1337759773395824640(Long), 1337762752513486849(Long), 1337872061003993088(Long), 1337872316667793408(Long), 1337872488235798528(Long), 1337872597996539904(Long), 1337872898115768320(Long), 1337873148071120896(Long), 1337874646456864768(Long), 1337874812798767104(Long), 1337874951365988352(Long), 1337875255574663168(Long), 1337876581629038592(Long), 1337879143543476224(Long), 1337879206630002688(Long), 1337882606201475072(Long), 1337884719262470144(Long), 1337949399824781312(Long), 1337957605418520576(Long), 1337958745514233856(Long), 1337960531323047936(Long), 1337961040297644032(Long), 1337968514828390400(Long), 1337971702436515840(Long)
-2022-07-21 00:39:12,896 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:41:29,649 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:41:29,650 INFO (Undertow.java:259)- stopping server: Undertow - 2.2.18.Final
-2022-07-21 00:41:29,652 INFO (ServletContextImpl.java:382)- Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-07-21 00:41:29,655 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
-2022-07-21 00:41:29,655 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2022-07-21 00:41:29,655 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:41:29,656 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2022-07-21 00:41:29,787 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
-2022-07-21 00:41:29,790 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
-2022-07-21 00:41:33,797 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.3.1 on Mingjie-coding with PID 22724 (D:\Java\novel\target\classes started by 85396 in D:\Java\novel)
-2022-07-21 00:41:33,799 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-M5
-2022-07-21 00:41:33,800 INFO (SpringApplication.java:635)- The following 1 profile is active: "dev"
-2022-07-21 00:41:33,805 INFO (Version.java:21)- HV000001: Hibernate Validator 7.0.4.Final
-2022-07-21 00:41:34,680 INFO (RepositoryConfigurationDelegate.java:294)- Multiple Spring Data modules found, entering strict repository configuration mode
-2022-07-21 00:41:34,682 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2022-07-21 00:41:34,707 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-2022-07-21 00:41:35,142 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2022-07-21 00:41:35,155 INFO (ServletContextImpl.java:382)- Initializing Spring embedded WebApplicationContext
-2022-07-21 00:41:35,155 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1229 ms
-2022-07-21 00:41:37,400 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
-2022-07-21 00:41:37,408 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2022-07-21 00:41:37,409 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
-2022-07-21 00:41:37,409 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
-2022-07-21 00:41:37,410 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2022-07-21 00:41:37,410 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2022-07-21 00:41:37,410 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
-2022-07-21 00:41:37,410 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5e41e6ad
-2022-07-21 00:41:37,958 INFO (EndpointLinksResolver.java:58)- Exposing 15 endpoint(s) beneath base path '/actuator'
-2022-07-21 00:41:38,034 INFO (Undertow.java:120)- starting server: Undertow - 2.2.18.Final
-2022-07-21 00:41:38,039 INFO (Xnio.java:95)- XNIO version 3.8.7.Final
-2022-07-21 00:41:38,043 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.7.Final
-2022-07-21 00:41:38,058 INFO (Version.java:52)- JBoss Threads version 3.1.0.Final
-2022-07-21 00:41:38,088 INFO (UndertowWebServer.java:119)- Undertow started on port(s) 8888 (http)
-2022-07-21 00:41:38,089 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
-2022-07-21 00:41:38,089 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2022-07-21 00:41:38,099 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 4.625 seconds (process running for 5.409)
-2022-07-21 00:41:38,101 INFO (NovelApplication.java:32)- 加载了如下缓存管理器：
-2022-07-21 00:41:38,101 INFO (NovelApplication.java:34)- caffeineCacheManager:org.springframework.cache.support.SimpleCacheManager
-2022-07-21 00:41:38,102 INFO (NovelApplication.java:35)- 缓存：[homeBookCache, latestNewsCache, bookNewestRankCache, bookUpdateRankCache, bookCategoryListCache, bookInfoCache, bookChapterCache, lastUpdateBookIdListCache]
-2022-07-21 00:41:38,102 INFO (NovelApplication.java:34)- redisCacheManager:org.springframework.data.redis.cache.RedisCacheManager
-2022-07-21 00:41:38,102 INFO (NovelApplication.java:35)- 缓存：[bookVisitRankCache, homeFriendLinkCache, bookContentCache, userInfoCache, authorInfoCache]
-2022-07-21 00:41:38,164 INFO (ServletContextImpl.java:382)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-21 00:41:38,165 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2022-07-21 00:41:38,165 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2022-07-21 00:41:38,166 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
-2022-07-21 00:41:38,272 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f29c3ef
-2022-07-21 00:41:38,275 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
-2022-07-21 00:41:42,389 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
-2022-07-21 00:41:42,389 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY create_time DESC limit 30
-2022-07-21 00:41:42,389 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,type,sort,book_id,create_time,update_time FROM home_book ORDER BY sort ASC
-2022-07-21 00:41:42,390 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 00:41:42,405 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:41:42,405 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:41:42,405 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:41:42,405 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:41:42,431 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
-2022-07-21 00:41:42,436 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:41:42,439 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:41:42,439 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:41:42,440 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?))
-2022-07-21 00:41:42,443 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1334318182169681920(Long), 1334318497132552192(Long), 1334318818323963904(Long), 1334328310788882432(Long), 1334334734843609088(Long), 1334335471568912384(Long), 1337759637059973121(Long), 1337759773395824640(Long), 1337762752513486849(Long), 1337872061003993088(Long), 1337872316667793408(Long), 1337872488235798528(Long), 1337872597996539904(Long), 1337872898115768320(Long), 1337873148071120896(Long), 1337874646456864768(Long), 1337874812798767104(Long), 1337874951365988352(Long), 1337875255574663168(Long), 1337876581629038592(Long), 1337879143543476224(Long), 1337879206630002688(Long), 1337882606201475072(Long), 1337884719262470144(Long), 1337949399824781312(Long), 1337957605418520576(Long), 1337958745514233856(Long), 1337960531323047936(Long), 1337961040297644032(Long), 1337968514828390400(Long), 1337971702436515840(Long)
-2022-07-21 00:41:42,449 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:47:24,147 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:47:24,148 INFO (Undertow.java:259)- stopping server: Undertow - 2.2.18.Final
-2022-07-21 00:47:24,150 INFO (ServletContextImpl.java:382)- Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-07-21 00:47:24,154 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
-2022-07-21 00:47:24,154 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2022-07-21 00:47:24,154 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 00:47:24,154 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2022-07-21 00:47:24,281 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
-2022-07-21 00:47:24,285 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
-2022-07-21 00:47:26,703 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.3.1 on Mingjie-coding with PID 34972 (D:\Java\novel\target\classes started by 85396 in D:\Java\novel)
-2022-07-21 00:47:26,705 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-M5
-2022-07-21 00:47:26,706 INFO (SpringApplication.java:635)- The following 1 profile is active: "dev"
-2022-07-21 00:47:26,711 INFO (Version.java:21)- HV000001: Hibernate Validator 7.0.4.Final
-2022-07-21 00:47:27,767 INFO (RepositoryConfigurationDelegate.java:294)- Multiple Spring Data modules found, entering strict repository configuration mode
-2022-07-21 00:47:27,769 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2022-07-21 00:47:27,795 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-2022-07-21 00:47:28,273 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2022-07-21 00:47:28,288 INFO (ServletContextImpl.java:382)- Initializing Spring embedded WebApplicationContext
-2022-07-21 00:47:28,288 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1412 ms
-2022-07-21 00:47:30,620 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
-2022-07-21 00:47:30,626 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2022-07-21 00:47:30,626 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
-2022-07-21 00:47:30,627 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
-2022-07-21 00:47:30,628 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2022-07-21 00:47:30,628 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2022-07-21 00:47:30,629 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
-2022-07-21 00:47:30,629 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@58189b85
-2022-07-21 00:47:31,237 INFO (EndpointLinksResolver.java:58)- Exposing 15 endpoint(s) beneath base path '/actuator'
-2022-07-21 00:47:31,317 INFO (Undertow.java:120)- starting server: Undertow - 2.2.18.Final
-2022-07-21 00:47:31,322 INFO (Xnio.java:95)- XNIO version 3.8.7.Final
-2022-07-21 00:47:31,326 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.7.Final
-2022-07-21 00:47:31,342 INFO (Version.java:52)- JBoss Threads version 3.1.0.Final
-2022-07-21 00:47:31,375 INFO (UndertowWebServer.java:119)- Undertow started on port(s) 8888 (http)
-2022-07-21 00:47:31,376 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
-2022-07-21 00:47:31,377 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2022-07-21 00:47:31,388 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 5.114 seconds (process running for 5.842)
-2022-07-21 00:47:31,390 INFO (NovelApplication.java:32)- 加载了如下缓存管理器：
-2022-07-21 00:47:31,391 INFO (NovelApplication.java:34)- caffeineCacheManager:org.springframework.cache.support.SimpleCacheManager
-2022-07-21 00:47:31,391 INFO (NovelApplication.java:35)- 缓存：[homeBookCache, latestNewsCache, bookNewestRankCache, bookUpdateRankCache, bookCategoryListCache, bookInfoCache, bookChapterCache, lastUpdateBookIdListCache]
-2022-07-21 00:47:31,392 INFO (NovelApplication.java:34)- redisCacheManager:org.springframework.data.redis.cache.RedisCacheManager
-2022-07-21 00:47:31,392 INFO (NovelApplication.java:35)- 缓存：[bookVisitRankCache, homeFriendLinkCache, bookContentCache, userInfoCache, authorInfoCache]
-2022-07-21 00:47:31,793 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2022-07-21 00:47:31,800 INFO (ServletContextImpl.java:382)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-21 00:47:31,800 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2022-07-21 00:47:31,802 INFO (FrameworkServlet.java:547)- Completed initialization in 2 ms
-2022-07-21 00:47:31,904 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b2036e9
-2022-07-21 00:47:31,907 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
-2022-07-21 00:47:37,129 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,type,sort,book_id,create_time,update_time FROM home_book ORDER BY sort ASC
-2022-07-21 00:47:37,129 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 00:47:37,129 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
-2022-07-21 00:47:37,129 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY create_time DESC limit 30
-2022-07-21 00:47:37,147 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:47:37,147 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:47:37,146 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:47:37,146 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 00:47:37,170 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
-2022-07-21 00:47:37,174 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:47:37,176 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:47:37,177 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:47:37,178 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?))
-2022-07-21 00:47:37,180 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1334318182169681920(Long), 1334318497132552192(Long), 1334318818323963904(Long), 1334328310788882432(Long), 1334334734843609088(Long), 1334335471568912384(Long), 1337759637059973121(Long), 1337759773395824640(Long), 1337762752513486849(Long), 1337872061003993088(Long), 1337872316667793408(Long), 1337872488235798528(Long), 1337872597996539904(Long), 1337872898115768320(Long), 1337873148071120896(Long), 1337874646456864768(Long), 1337874812798767104(Long), 1337874951365988352(Long), 1337875255574663168(Long), 1337876581629038592(Long), 1337879143543476224(Long), 1337879206630002688(Long), 1337882606201475072(Long), 1337884719262470144(Long), 1337949399824781312(Long), 1337957605418520576(Long), 1337958745514233856(Long), 1337960531323047936(Long), 1337961040297644032(Long), 1337968514828390400(Long), 1337971702436515840(Long)
-2022-07-21 00:47:37,190 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
-2022-07-21 00:48:48,123 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT( * ) FROM user_info WHERE (username = ?) limit 1
-2022-07-21 00:48:48,124 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 13531323236(String)
-2022-07-21 00:48:48,127 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
-2022-07-21 00:48:48,131 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: INSERT INTO user_info ( username, password, salt, nick_name, create_time, update_time ) VALUES ( ?, ?, ?, ?, ?, ? )
-2022-07-21 00:48:48,131 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 13531323236(String), e034fb6b66aacc1d48f445ddfb08da98(String), 0(String), 13531323236(String), 2022-07-21T00:48:48.129319600(LocalDateTime), 2022-07-21T00:48:48.129319600(LocalDateTime)
-2022-07-21 00:48:48,159 DEBUG (BaseJdbcLogger.java:137)- <==    Updates: 1
-2022-07-21 00:48:48,269 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 00:48:48,270 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:48:48,276 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:49:08,371 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,username,password,salt,nick_name,user_photo,user_sex,account_balance,status,create_time,update_time FROM user_info WHERE (username = ?) limit 1
-2022-07-21 00:49:08,371 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 13531323236(String)
-2022-07-21 00:49:08,373 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
-2022-07-21 00:49:08,376 ERROR (CommonExceptionHandler.java:35)- 用户密码错误
-io.github.xxyopen.novel.core.common.exception.BusinessException: 用户密码错误
-2022-07-21 00:49:10,950 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,username,password,salt,nick_name,user_photo,user_sex,account_balance,status,create_time,update_time FROM user_info WHERE (username = ?) limit 1
-2022-07-21 00:49:10,950 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 13531323236(String)
-2022-07-21 00:49:10,952 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
-2022-07-21 00:49:10,953 ERROR (CommonExceptionHandler.java:35)- 用户密码错误
-io.github.xxyopen.novel.core.common.exception.BusinessException: 用户密码错误
-2022-07-21 00:49:14,045 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,username,password,salt,nick_name,user_photo,user_sex,account_balance,status,create_time,update_time FROM user_info WHERE (username = ?) limit 1
-2022-07-21 00:49:14,045 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 13531323236(String)
-2022-07-21 00:49:14,046 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
-2022-07-21 00:49:14,047 ERROR (CommonExceptionHandler.java:35)- 用户密码错误
-io.github.xxyopen.novel.core.common.exception.BusinessException: 用户密码错误
-2022-07-21 00:49:16,396 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,username,password,salt,nick_name,user_photo,user_sex,account_balance,status,create_time,update_time FROM user_info WHERE (username = ?) limit 1
-2022-07-21 00:49:16,397 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 13531323236(String)
-2022-07-21 00:49:16,398 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
-2022-07-21 00:49:16,399 ERROR (CommonExceptionHandler.java:35)- 用户密码错误
-io.github.xxyopen.novel.core.common.exception.BusinessException: 用户密码错误
-2022-07-21 00:49:19,959 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,username,password,salt,nick_name,user_photo,user_sex,account_balance,status,create_time,update_time FROM user_info WHERE (username = ?) limit 1
-2022-07-21 00:49:19,960 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 13531323236(String)
-2022-07-21 00:49:19,961 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
-2022-07-21 00:49:19,961 ERROR (CommonExceptionHandler.java:35)- 用户密码错误
-io.github.xxyopen.novel.core.common.exception.BusinessException: 用户密码错误
-2022-07-21 00:49:29,106 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT( * ) FROM user_info WHERE (username = ?) limit 1
-2022-07-21 00:49:29,107 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 13262523963(String)
-2022-07-21 00:49:29,108 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
-2022-07-21 00:49:29,108 ERROR (CommonExceptionHandler.java:35)- 用户名已存在
-io.github.xxyopen.novel.core.common.exception.BusinessException: 用户名已存在
-2022-07-21 00:49:43,486 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,username,password,salt,nick_name,user_photo,user_sex,account_balance,status,create_time,update_time FROM user_info WHERE (username = ?) limit 1
-2022-07-21 00:49:43,487 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 13262523963(String)
-2022-07-21 00:49:43,488 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
-2022-07-21 00:55:54,147 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 00:55:54,148 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 00:55:54,153 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 00:56:25,514 INFO (AbstractOpenApiResource.java:358)- Init duration for springdoc-openapi is: 180 ms
-2022-07-21 01:13:47,348 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 01:13:47,348 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
-2022-07-21 01:13:47,352 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 01:13:47,353 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 01:13:47,356 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
-2022-07-21 01:13:47,357 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 01:25:16,582 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
-2022-07-21 01:25:16,582 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
-2022-07-21 01:25:16,582 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY create_time DESC limit 30
-2022-07-21 01:25:16,583 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
-2022-07-21 01:25:16,583 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 01:25:16,583 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
-2022-07-21 01:25:16,585 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
-2022-07-21 01:25:16,589 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 01:25:16,589 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
-2022-07-21 01:27:53,787 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 01:27:53,790 INFO (Undertow.java:259)- stopping server: Undertow - 2.2.18.Final
-2022-07-21 01:27:53,803 INFO (ServletContextImpl.java:382)- Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-07-21 01:27:53,841 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
-2022-07-21 01:27:53,841 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2022-07-21 01:27:53,841 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2022-07-21 01:27:53,841 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2022-07-21 01:27:53,982 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
-2022-07-21 01:27:53,984 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
+2022-08-09 00:12:10,979 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-08-09 00:12:10,980 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
+2022-08-09 00:12:10,981 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5186c801
+2022-08-09 00:12:11,654 INFO (EndpointLinksResolver.java:58)- Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-08-09 00:12:11,745 INFO (Undertow.java:120)- starting server: Undertow - 2.2.18.Final
+2022-08-09 00:12:11,749 INFO (Xnio.java:95)- XNIO version 3.8.7.Final
+2022-08-09 00:12:11,753 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.7.Final
+2022-08-09 00:12:11,768 INFO (Version.java:52)- JBoss Threads version 3.1.0.Final
+2022-08-09 00:12:11,800 INFO (UndertowWebServer.java:119)- Undertow started on port(s) 8883 (http)
+2022-08-09 00:12:11,801 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
+2022-08-09 00:12:11,802 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-08-09 00:12:11,813 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 5.325 seconds (process running for 6.146)
+2022-08-09 00:12:11,816 INFO (NovelApplication.java:32)- 加载了如下缓存管理器：
+2022-08-09 00:12:11,816 INFO (NovelApplication.java:34)- caffeineCacheManager:org.springframework.cache.support.SimpleCacheManager
+2022-08-09 00:12:11,817 INFO (NovelApplication.java:35)- 缓存：[homeBookCache, latestNewsCache, bookNewestRankCache, bookUpdateRankCache, bookCategoryListCache, bookInfoCache, bookChapterCache, lastUpdateBookIdListCache]
+2022-08-09 00:12:11,818 INFO (NovelApplication.java:34)- redisCacheManager:org.springframework.data.redis.cache.RedisCacheManager
+2022-08-09 00:12:11,818 INFO (NovelApplication.java:35)- 缓存：[bookVisitRankCache, homeFriendLinkCache, bookContentCache, userInfoCache, authorInfoCache]
+2022-08-09 00:12:12,122 INFO (ServletContextImpl.java:382)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 00:12:12,123 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-08-09 00:12:12,123 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-08-09 00:12:12,124 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-08-09 00:12:12,466 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e1c48fa
+2022-08-09 00:12:12,469 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.

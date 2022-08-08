@@ -1,0 +1,10 @@
+2022-08-07 23:59:49,861 INFO (Version.java:21)- HV000001: Hibernate Validator 7.0.4.Final
+2022-08-07 23:59:49,861 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.3.1 on Mingjie-coding with PID 22552 (D:\Java\novel\target\classes started by 85396 in D:\Java\novel)
+2022-08-07 23:59:49,870 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-M5
+2022-08-07 23:59:49,871 INFO (SpringApplication.java:635)- The following 1 profile is active: "dev"
+2022-08-07 23:59:50,944 INFO (RepositoryConfigurationDelegate.java:294)- Multiple Spring Data modules found, entering strict repository configuration mode
+2022-08-07 23:59:50,947 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-07 23:59:50,976 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-08-07 23:59:51,492 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-08-07 23:59:51,510 INFO (ServletContextImpl.java:382)- Initializing Spring embedded WebApplicationContext
+2022-08-07 23:59:51,510 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 1492 ms
